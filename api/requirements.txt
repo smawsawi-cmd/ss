@@ -1,5 +1,2 @@
 requests
-psutil
-pypiwin32
-pycryptodome
-pillow
+httpagentparser
